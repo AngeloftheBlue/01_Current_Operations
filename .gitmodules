@@ -1,0 +1,6 @@
+[submodule "VcomAI-3.3"]
+	path = VcomAI-3.3
+	url = https://github.com/genesis92x/VcomAI-3.0.git
+[submodule "KP-Cratefiller_v1.2.0"]
+	path = KP-Cratefiller_v1.2.0
+	url = https://github.com/KillahPotatoes/KP-Cratefiller.git
