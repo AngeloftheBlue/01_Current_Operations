@@ -79,9 +79,10 @@ class CfgRemoteExec
 	
 };
 //////////////////// Vcom CBA settings ////////////////////////////////
-// class Extended_PreInit_EventHandlers {
-// 	VCM_CBASettings = call compile preprocessFileLineNumbers "Vcom\Functions\VCM_Functions\fn_CBASettings.sqf";
-// };
+class Extended_PreInit_EventHandlers {
+	VCM_CBASettings = call compile preprocessFileLineNumbers "Vcom\Functions\VCM_Functions\fn_CBASettings.sqf";
+};
+
 
 /////////////////////////// Anit Cheat Below//////////////////////////////////////////////////////////////
 

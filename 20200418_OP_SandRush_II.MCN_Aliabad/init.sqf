@@ -14,7 +14,7 @@ CHVD_maxObj = 5000;
 
 ////////////////Anit Cheat/////////////////////////////////////////////////////
 
-Admin and cheat mods
+/////////////////////Admin and cheat mods
 if (["KA_proving_ground",
 	"NSS_Admin_Console",
 	"MGI_TP_V3",
