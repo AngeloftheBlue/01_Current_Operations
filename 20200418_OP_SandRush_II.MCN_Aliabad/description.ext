@@ -102,7 +102,7 @@ class CfgDebriefing
     {
         title = "Out of Date/Error producing Mod Detected ";
         subtitle = "";
-        description = "Remove TF47,BloodLust,Bullet Casings mods,NIArms Minigun, Suitcase Nuke and Ravage due to bugs, and Rejoin. ";
+        description = "Remove TF47,Achilles, BloodLust,Bullet Casings mods,NIArms Minigun, Suitcase Nuke and Ravage due to bugs, and Rejoin. ";
         pictureBackground = "";
         picture = "";
         pictureColor[] = {0.0,0.3,0.6,1};
