@@ -42,6 +42,8 @@ if (["tf47_launchers",
 	"KA_Suitcase_Nuke",
 	"hlcweapons_M134",
 	"achilles_data_f_achilles",
+	"gpn18",
+	"tfa_facewear",
 	"bullet_cases"] apply {isClass(configFile>>"CfgPatches">>_x)} findIf {_x} > -1) then{
 		["RestrictedMods", false, 2] call BIS_fnc_endMission;};
 
