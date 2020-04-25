@@ -128,3 +128,8 @@ class CfgDebriefing
 //             variable = "acex_killTracker_outputText";
 //         };
 // };
+
+// author="509th PIR Mission Devopment";
+// OnLoadName = "Operation Sand Rush III";
+// OnLoadMission = "Its quiet... too quiet";
+// loadScreen = "images\loadscreen.jpg"
