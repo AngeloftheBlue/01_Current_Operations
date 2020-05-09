@@ -6,7 +6,7 @@ Author:
 
 Last modified:
 
-	20200502  by Michael
+	20200509  by Michael
 	
 Description:
 
@@ -27,9 +27,10 @@ class Header
 
 
 author="509th PIR Mission Devopment";
-OnLoadName = "Operation Sand Rush IV";
-OnLoadMission = "Better to fight for something than live for nothing.― George S. Patton";
-loadScreen = "images\loadscreen.jpg"
+OnLoadName = "Zeus Op - Sahrani";
+OnLoadMission = "";
+loadScreen = ""
+
 
 
 enableDebugConsole[] = {"76561198277313876", 
