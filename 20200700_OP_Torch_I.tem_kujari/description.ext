@@ -29,7 +29,7 @@ class Header
 author="509th PIR Mission Devopment";
 OnLoadName = "Operation Torch I";
 OnLoadMission = "As a part of the Center Task Force, the 509th move to drop into Northern Africa for the start of the Allied North African campaign.";
-loadScreen = ""
+loadScreen = "images\splash1.jpg";
 
 
 
