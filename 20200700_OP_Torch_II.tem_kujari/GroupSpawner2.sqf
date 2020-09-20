@@ -13,8 +13,8 @@ _airframe5 = [];
 
 if (isServer) then {
 _crew1 = creategroup west;
-_airframe4 = [getMarkerPos "ins_4", 0, "sab_ju87", _crew2] call BIS_fnc_spawnVehicle;
-_airframe5 = [getMarkerPos "ins_5", 0, "sab_ju87", _crew2] call BIS_fnc_spawnVehicle;
+_airframe4 = [getMarkerPos "ins_4", 0, "sab_ju87_2", _crew2] call BIS_fnc_spawnVehicle;
+_airframe5 = [getMarkerPos "ins_5", 0, "sab_ju87_2", _crew2] call BIS_fnc_spawnVehicle;
 
 
 _wp1 = _crew2 addWaypoint [getmarkerpos "wp1_2", 0];
