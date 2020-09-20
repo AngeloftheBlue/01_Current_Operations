@@ -1,0 +1,15 @@
+class CfgSounds {
+	titles[] = {};
+
+	class TurnAround {
+		name = "TurnAround";
+        sound[] = {"\music\TurnAround.ogg", 10, 1};
+        titles[] = {};
+	};
+
+	class Silence {
+		name = "Silence";
+        sound[] = {"\music\Silence.ogg", 5, 1};
+        titles[] = {};
+	};
+};
