@@ -1,0 +1,19 @@
+`r1 say3D ["namsong", 1000, 1];`
+
+class CfgSounds
+{
+	sounds[] = {};
+	class namsong
+ 	{
+		name = "namsong";
+		sound[] = {"sounds\namsong.ogg", 700, 1};
+		titles[] = {};
+ 	};
+};	
+
+
+> Adjust Radio to Radio Script
+> Place enemy along AI Path
+> Tie in with 25th ID
+> Clean up blufor AI
+> Remove Reliance on Zeus to compleate the mission

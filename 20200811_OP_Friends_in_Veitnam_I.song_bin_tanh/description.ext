@@ -1,4 +1,4 @@
-/*/
+/*
 File: description.ext
 Author:
 
@@ -11,7 +11,7 @@ Last modified:
 Description:
 
 	https://community.bistudio.com/wiki/Description.ext
-____________________________________________/*/
+____________________________________________*/
 
 #include "CHVD\dialog.hpp" // View Distance
 #include "KPGUI\KPGUI_defines.hpp"
@@ -121,25 +121,13 @@ class CfgDebriefing
 };
 
 
-
-// class CfgDebriefingSections {
-    
-// 	    class acex_killTracker {
-//             title = "Acex Killed Events";
-//             variable = "acex_killTracker_outputText";
-//         };
-// };
-
-
-// Sounds
 class CfgSounds
-
 {
-sounds[] = {};
-class music1
- {
- name = "music1";
- sound[] = {"sounds\namsong.ogg", 700, 1};
- titles[] = {0,""};
- };
+	sounds[] = {};
+	class namsong
+ 	{
+		name = "namsong";
+		sound[] = {"sounds\namsong.ogg", 700, 1};
+		titles[] = {};
+ 	};
 };
