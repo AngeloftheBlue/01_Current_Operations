@@ -130,4 +130,4 @@ class CfgSounds
 		sound[] = {"sounds\namsong.ogg", 700, 1};
 		titles[] = {};
  	};
-};
+};	
