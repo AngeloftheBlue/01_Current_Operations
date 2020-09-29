@@ -11,9 +11,6 @@ class CfgSounds
  	};
 };	
 
-
-> Adjust Radio to Radio Script
-> Replace Song with Period Accurate Music "House of the Rising Sun"
 > Place enemy along AI Path
 > Tie in with 25th ID
 	-Operation Attleboro,		14 September 1966
@@ -54,5 +51,4 @@ class CfgSounds
 			-Clear Highway of Veitcong (The Rest + Armor & manpads)
 		
 		
-> Clean up blufor AI
 > Remove Reliance on Zeus to compleate the mission

@@ -38,7 +38,6 @@ enableDebugConsole[] = {"76561198277313876",
 						"76561198352564029", 
 						"76561198051306330",
 						"76561198168637308", 
-						"76561198125701176"  //Maximum 
 };
 
 
@@ -124,10 +123,26 @@ class CfgDebriefing
 class CfgSounds
 {
 	sounds[] = {};
-	class namsong
+	class stopChildren
  	{
-		name = "namsong";
-		sound[] = {"sounds\namsong.ogg", 700, 1};
+		name = "stopChildren";
+		sound[] = {"sounds\stopChildren.ogg", 700, 1};
+		titles[] = {};
+ 	};
+	 class house
+ 	{
+		name = "house";
+		sound[] = {"sounds\house.ogg", 700, 1};
 		titles[] = {};
  	};
 };	
+
+class CfgRadio{
+	sounds[] = {};
+	class moreRice
+	{
+		name = "moreRice";
+		sound[] = {"\sounds\moreRice.ogg", -100, 1.0};
+		title = "There's... more... rice..";
+	};
+};
