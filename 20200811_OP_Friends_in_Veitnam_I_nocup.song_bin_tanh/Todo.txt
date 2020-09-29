@@ -1,16 +1,3 @@
-`r1 say3D ["namsong", 1000, 1];`
-
-class CfgSounds
-{
-	sounds[] = {};
-	class namsong
- 	{
-		name = "namsong";
-		sound[] = {"sounds\namsong.ogg", 700, 1};
-		titles[] = {};
- 	};
-};	
-
 > Place enemy along AI Path
 > Tie in with 25th ID
 	-Operation Attleboro,		14 September 1966
@@ -49,6 +36,3 @@ class CfgSounds
 			-Defend airfield (20-30AI, light armor/ motorized)
 			-Assault Taken Firebase (20-30AI)
 			-Clear Highway of Veitcong (The Rest + Armor & manpads)
-		
-		
-> Remove Reliance on Zeus to compleate the mission
