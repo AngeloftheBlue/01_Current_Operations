@@ -22,11 +22,16 @@
 		
 		>3-509 Objectives / Enemy Composition per obj
 			Operation Attleboro Start
-			-Secure 6 Rice caches scattered about the area
+			-Secure 6 Rice caches scattered about the area																
 				-Secure first two cahces, no enemies, no problems
 				-Defend against ambush between 2 cahces (20-30AI per ambush, manpads)
 			-Exfil Rice via CH-47
 			-Search and Destroy enemy command post (Veitcong Tunnels) (100-120AI, static AA, crew serviced weapons)
+
+
+
+
+			Next Operation:
 			Operation Junction City Start
 			-Airborne into an open clearing to participate as the anvil for the operation
 			-Hold against veitcong (20-30AI)
