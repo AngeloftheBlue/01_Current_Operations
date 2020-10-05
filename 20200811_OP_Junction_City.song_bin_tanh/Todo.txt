@@ -1,0 +1,55 @@
+>Adjust music
+	-flight of the valkyries  //SPECIAL
+		>Music Trigger Needs improvement 
+
+>Setup Hammer/Anvil Obj
+	-Dropzone
+	-AI Ambush
+		> Ambush Trigger
+		> AI Staggered
+	-"Hammer"
+		>20 blufor AI
+		>Ironsides alone
+> Relocate to COP
+	-move spawn
+	-prep for Assault
+> Airfield/Arty Assault
+	- Force Friendlies to move	
+	- Assault Firebase
+		>remove TP poles
+		>Fuck arty guys
+>Higway Obj	
+	-Build highway
+	-Unhide AI
+	- Lots of abandoned vehicles, mines, VBIEDS
+	- Small dense locations of enemies
+
+> Place enemy along AI Path
+> Tie in with 25th ID
+	-Operation Junction City, 	22 February  1967
+		> Airborne Jump into City via helicopters
+		> Light resistance
+		> Target: Veitcong HQ
+			-Moved to Cambodia Before US could intervine
+			 Very few (if any) veitcong troops
+		> Battle of Prek Klok I
+			-defend a highway, airfield, and artillery base in the area, and to carry out search and destroy operations around it. 
+			 On the morning of 28 February, elements of the battalion headed east, and were attacked from the front by Viet Cong (VC) 
+			 infantry with gunfire, rockets and mortars. Soon after, they were attacked from all fronts as the VC tried to surround 
+			 them with a battalion-sized force. However, with superior firepower available, the Americans called in air strikes and 
+			 artillery, and by mid afternoon, had repelled the VC attacks. The Americans lost 25 killed while the VC lost 167.
+		
+		>3-509 Objectives / Enemy Composition per obj
+			Operation Junction City Start
+			-Airborne into an open clearing to participate as the anvil for the operation
+			-Hold against veitcong (20-30AI)
+			-Setup at nearby COP
+			Battle of Prek Klok I
+			-Defend COP + aditional objectives (100-120AI total)
+			-Defend airfield (20-30AI, light armor/ motorized)
+			-Assault Taken Firebase (20-30AI)
+			-Clear Highway of Veitcong (The Rest + Armor & manpads)
+
+
+Tet offensive music
+	The Rolling Stones - Sympathy For The Devil
