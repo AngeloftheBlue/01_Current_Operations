@@ -1,23 +1,7 @@
 >Adjust music
 	-flight of the valkyries  //SPECIAL
 		>Music Trigger Needs improvement 
-
->Setup Hammer/Anvil Obj
-	-Dropzone
-	-AI Ambush
-		> Ambush Trigger
-		> AI Staggered
-	-"Hammer"
-		>20 blufor AI
-		>Ironsides alone
-> Relocate to COP
-	-move spawn
-	-prep for Assault
-> Airfield/Arty Assault
-	- Force Friendlies to move	
-	- Assault Firebase
-		>remove TP poles
-		>Fuck arty guys
+		
 >Higway Obj	
 	-Build highway
 	-Unhide AI
@@ -53,5 +37,5 @@
 
 Tet offensive music
 	The Rolling Stones - Sympathy For The Devil
-	Edwin  Starr - War (What Is It Good For)
 	Bird is the Word
+	Jefferson Airplane - Somebody To Love
