@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=1677;
+		nextID=1740;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=5;
+		nextID=7;
 	};
 	class Camera
 	{
-		pos[]={7400.457,94.00193,9140.4609};
-		dir[]={-0.70095021,-0.53687376,0.46956646};
-		up[]={-0.44606733,0.84363854,0.29882288};
-		aside[]={0.55657524,3.4343975e-007,0.83083516};
+		pos[]={6724.9946,50.901604,7611.5708};
+		dir[]={-0.84792173,-0.51217413,-0.13694289};
+		up[]={-0.50563467,0.85887051,-0.081662551};
+		aside[]={-0.15944192,-2.3085158e-007,0.98722887};
 	};
 };
 binarizationWanted=0;
@@ -793,7 +793,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=464;
+		items=460;
 		class Item0
 		{
 			dataType="Object";
@@ -25856,7 +25856,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={6687.8154,15.712684,7180.7988};
-				angles[]={-0,1.5024493,0.0026520467};
+				angles[]={0,1.5024493,0.0026520467};
 			};
 			side="Empty";
 			flags=4;
@@ -25866,6 +25866,7 @@ class Mission
 			};
 			id=823;
 			type="uns_ch47_wreck";
+			atlOffset=-0.00054168701;
 		};
 		class Item209
 		{
@@ -43956,16 +43957,16 @@ class Mission
 		class Item452
 		{
 			dataType="Marker";
-			position[]={6357.1929,10.657,7707.3691};
+			position[]={6145.4453,1.8500977,7760.8638};
 			name="AI_Spawn_Alpha";
 			type="Empty";
 			id=1655;
-			atlOffset=-0.00039291382;
+			atlOffset=-6.0698647;
 		};
 		class Item453
 		{
 			dataType="Marker";
-			position[]={6565.3369,10.93,7806.373};
+			position[]={6794.1875,19.116358,7908.5059};
 			name="AI_Spawn_Bravo";
 			type="Empty";
 			id=1656;
@@ -43973,91 +43974,46 @@ class Mission
 		class Item454
 		{
 			dataType="Marker";
-			position[]={6796.8672,19.16,7903.8188};
+			position[]={7224.1187,13.118896,7863.563};
 			name="AI_Spawn_Charlie";
 			type="Empty";
 			id=1657;
-			atlOffset=-0.00086975098;
+			atlOffset=-1.8901072;
 		};
 		class Item455
 		{
 			dataType="Marker";
-			position[]={7040.0425,16.538818,7853.6875};
+			position[]={7402.9019,7.5322266,7101.4844};
 			name="AI_Spawn_Delta";
 			type="Empty";
 			id=1658;
-			atlOffset=-0.75126076;
+			atlOffset=-4.363431;
 		};
 		class Item456
 		{
 			dataType="Marker";
-			position[]={7209.8701,14.706,7766.5669};
+			position[]={6906.3638,9.1347656,6516.8384};
 			name="AI_Spawn_Echo";
 			type="Empty";
 			id=1659;
-			atlOffset=-0.00032043457;
+			atlOffset=-0.53368473;
 		};
 		class Item457
 		{
 			dataType="Marker";
-			position[]={7390.8472,18.820999,7582.3872};
+			position[]={6211.2646,4.3659668,6739.3179};
 			name="AI_Spawn_Foxtrot";
 			type="Empty";
 			id=1660;
-			atlOffset=-0.00037384033;
+			atlOffset=-3.8651476;
 		};
 		class Item458
-		{
-			dataType="Marker";
-			position[]={7448.502,12.494,7141.958};
-			name="AI_Spawn_Golf";
-			type="Empty";
-			id=1661;
-			atlOffset=-0.00069904327;
-		};
-		class Item459
-		{
-			dataType="Marker";
-			position[]={7224.2842,7.7399998,6837.6611};
-			name="AI_Spawn_Hotel";
-			type="Empty";
-			id=1662;
-			atlOffset=-0.00048351288;
-		};
-		class Item460
-		{
-			dataType="Marker";
-			position[]={6324.208,15.519,6739.9658};
-			name="AI_Spawn_India";
-			type="Empty";
-			id=1663;
-			atlOffset=-0.00073051453;
-		};
-		class Item461
-		{
-			dataType="Marker";
-			position[]={5994.2871,5.9330001,7154.77};
-			name="AI_Spawn_Juliett";
-			type="Empty";
-			id=1664;
-			atlOffset=-0.0003900528;
-		};
-		class Item462
-		{
-			dataType="Marker";
-			position[]={5930.2251,7.283,7617.6201};
-			name="AI_Spawn_Kilo";
-			type="Empty";
-			id=1665;
-			atlOffset=-0.0010876656;
-		};
-		class Item463
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={6724.2446,16.934385,7166.5845};
-				angles[]={-0,0,0.0026520467};
+				angles[]={0,0,0.0026520467};
 			};
 			side="Empty";
 			flags=4;
@@ -44067,6 +44023,16 @@ class Mission
 			id=1666;
 			type="UNS_AH1G";
 			atlOffset=-1.9073486e-006;
+		};
+		class Item459
+		{
+			dataType="Group";
+			side="East";
+			class Attributes
+			{
+			};
+			id=1713;
+			atlOffset=6.0657259e+014;
 		};
 	};
 	class Connections
