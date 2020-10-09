@@ -1,7 +1,9 @@
 >Adjust music
 	-flight of the valkyries  //SPECIAL
 		>Music Trigger Needs improvement 
-		
+
+
+>Adjust tank script to work with destroying helipads
 >Higway Obj	
 	-Build highway
 	-Unhide AI
