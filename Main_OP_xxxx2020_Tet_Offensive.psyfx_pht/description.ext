@@ -27,8 +27,8 @@ class Header
 
 
 author="509th PIR Mission Devopment";
-OnLoadName = "Operation Attleboro ";
-OnLoadMission = "This war in Vietnam is, I believe, a war for civilization. Certainly it is not a war of our seeking. It is a war thrust upon us and we cannot yield to tyranny. Francis Spellman 1966";
+OnLoadName = "The Tet Offensive";
+OnLoadMission = "I must confess, the VC surprised us with their attack. It was surprisingly well coordinated, surprisingly impressive and launched with a surprising amount of audacity. - John Chasson, US brigadier general on the Tet Offensive, February 1968";
 loadScreen = "images\splash.jpg"
 
 
