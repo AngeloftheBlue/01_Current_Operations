@@ -57,6 +57,7 @@ class CfgFunctions
 {
 	#include "vcom\cfgFunctions.hpp"
 	#include "CHVD\CfgFunctions.hpp"
+	#include "KPCF\KPCF_functions.hpp"
 	
 };
 
