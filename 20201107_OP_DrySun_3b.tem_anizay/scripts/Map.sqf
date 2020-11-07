@@ -1,0 +1,2 @@
+hint format ["This map shows the position of various ISIS compounds throughought the region, one particular site labled 'deployment site' and circled in red draws your attention"];
+"Boss_marker" setMarkerAlpha 1;
