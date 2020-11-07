@@ -8,22 +8,22 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=714;
+		nextID=715;
 	};
 	class MarkerIDProvider
 	{
-		nextID=3;
+		nextID=4;
 	};
 	class LayerIndexProvider
 	{
-		nextID=17;
+		nextID=25;
 	};
 	class Camera
 	{
-		pos[]={8442.6318,116.52448,6828.1064};
-		dir[]={-0.81378728,-0.13903834,-0.56438464};
-		up[]={-0.11429206,0.99028116,-0.0792647};
-		aside[]={-0.56991786,1.3126992e-006,0.82176423};
+		pos[]={3098.9102,168.73853,8407.6543};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -906,7 +906,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=218;
+		items=219;
 		class Item0
 		{
 			dataType="Marker";
@@ -28209,6 +28209,7 @@ class Mission
 			};
 			id=547;
 			type="RHS_AH64D";
+			atlOffset=7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -28352,7 +28353,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4828.4478,145.64571,8350.7578};
-				angles[]={-0,5.3251057,0};
+				angles[]={0,5.3251057,0};
 			};
 			side="Empty";
 			flags=4;
@@ -31035,7 +31036,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4800.8174,148.59215,8350.3633};
-				angles[]={-0,5.3643947,-0};
+				angles[]={0,5.3643947,0};
 			};
 			side="Empty";
 			flags=4;
@@ -31318,7 +31319,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4828.5298,144.97026,8350.833};
-				angles[]={0,3.7419512,-0};
+				angles[]={0,3.7419512,0};
 			};
 			side="Empty";
 			flags=4;
@@ -32634,7 +32635,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8425.0322,111.54,6799.6108};
-								angles[]={-0,0.012738705,0};
+								angles[]={0,0.012738705,0};
 							};
 							id=690;
 							type="acex_fortify_setupModule";
@@ -32725,7 +32726,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8424.9971,111.54,6798.0645};
-								angles[]={-0,0.012738705,0};
+								angles[]={0,0.012738705,0};
 							};
 							id=691;
 							type="acex_fortify_setupModule";
@@ -32816,7 +32817,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8430.9072,111.54,6799.7944};
-								angles[]={-0,0.012738705,0};
+								angles[]={0,0.012738705,0};
 							};
 							id=692;
 							type="ModuleCurator_F";
@@ -32907,7 +32908,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8431.1436,111.54,6802.8501};
-								angles[]={-0,0.012738705,0};
+								angles[]={0,0.012738705,0};
 							};
 							name="Dohop";
 							id=693;
@@ -32999,7 +33000,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8431.0244,111.54,6801.1777};
-								angles[]={-0,0.012738705,0};
+								angles[]={0,0.012738705,0};
 							};
 							name="michael";
 							id=694;
@@ -33105,7 +33106,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8428.1416,111.54,6797.9561};
-								angles[]={-0,1.5847886,0};
+								angles[]={0,1.5847886,0};
 							};
 							isPlayable=1;
 							description="HC2";
@@ -33118,7 +33119,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8431.3057,111.54,6804.4609};
-								angles[]={-0,0.012735844,0};
+								angles[]={0,0.012735844,0};
 							};
 							name="Eaton";
 							id=701;
@@ -33210,7 +33211,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8431.4092,111.54,6806.1748};
-								angles[]={-0,0.012735844,0};
+								angles[]={0,0.012735844,0};
 							};
 							name="Angel";
 							id=702;
@@ -33302,7 +33303,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8431.1904,111.54,6807.9429};
-								angles[]={-0,0.012740904,0};
+								angles[]={0,0.012740904,0};
 							};
 							name="Exile";
 							id=712;
@@ -33393,6 +33394,15 @@ class Mission
 				};
 			};
 			id=713;
+		};
+		class Item218
+		{
+			dataType="Marker";
+			position[]={8414.1982,111.54,6807.0142};
+			name="respawn_west";
+			text="respawn_west";
+			type="Empty";
+			id=714;
 		};
 	};
 };
