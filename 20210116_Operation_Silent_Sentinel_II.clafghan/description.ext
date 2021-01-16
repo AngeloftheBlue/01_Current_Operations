@@ -120,5 +120,12 @@ class CfgDebriefing
         picture = "";
         pictureColor[] = {0.0,0.3,0.6,1};
     };
+
+	class acex_killTracker 
+	{
+		title = "ACEX Killed Events";
+		variable = "acex_killTracker_outputText";
+	};
+    
 };
 
