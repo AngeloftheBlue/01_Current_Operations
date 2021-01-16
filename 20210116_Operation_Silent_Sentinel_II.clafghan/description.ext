@@ -33,11 +33,13 @@ loadScreen = "";
 
 
 
+
 enableDebugConsole[] = {"76561198277313876", 
 						"76561198024812575", 
 						"76561198352564029", 
 						"76561198051306330",
 						"76561198168637308", 
+						"76561198125701176"  //Maximum 
 };
 
 
@@ -56,6 +58,7 @@ class CfgFunctions
 {
 	#include "vcom\cfgFunctions.hpp"
 	#include "CHVD\CfgFunctions.hpp"
+	#include "KPCF\KPCF_functions.hpp"
 	
 };
 
@@ -119,26 +122,3 @@ class CfgDebriefing
     };
 };
 
-
-class CfgSounds
-{
-	sounds[] = {};
-	class black
- 	{
-		name = "black";
-		sound[] = {"sounds\black.ogg", 700, 1};
-		titles[] = {};
- 	};
-	class neverTell
- 	{
-		name = "neverTell";
-		sound[] = {"sounds\neverTell.ogg", 700, 1};
-		titles[] = {};
- 	};
-	class helicopter
- 	{
-		name = "helicopter";
-		sound[] = {"sounds\helicopter.ogg", 700, 1};
-		titles[] = {};
- 	};
-};
