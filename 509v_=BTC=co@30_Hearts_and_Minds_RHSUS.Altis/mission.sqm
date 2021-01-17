@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=383;
+		nextID=387;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=30;
+		nextID=45;
 	};
 	class Camera
 	{
-		pos[]={8185.2847,400.53412,10054.893};
-		dir[]={0.33577985,-0.93992472,-0.063242204};
-		up[]={0.92365646,0.34144667,-0.1739617};
-		aside[]={-0.18511379,2.5085974e-006,-0.98282939};
+		pos[]={8294.875,173.42564,10190.406};
+		dir[]={-0.17486259,-0.6310975,-0.75587428};
+		up[]={-0.14226034,0.77561367,-0.61495751};
+		aside[]={-0.974379,7.1901013e-007,0.22541471};
 	};
 };
 binarizationWanted=0;
@@ -276,18 +276,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					singleType="ARRAY";
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -296,6 +284,18 @@ class CustomAttributes
 				{
 					singleType="SCALAR";
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="ARRAY";
 				};
 			};
 		};
@@ -2664,7 +2664,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8363.8711,75.677399,10103.982};
-				angles[]={0.0066682254,5.6318107,6.1914439};
+				angles[]={0.0066671576,5.6318107,6.1914506};
 			};
 			side="Empty";
 			flags=4;
@@ -2691,7 +2691,20 @@ class Mission
 						};
 					};
 				};
-				nAttributes=1;
+				class Attribute1
+				{
+					property="ace_cargo_space";
+					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=1000;
+						};
+					};
+				};
+				nAttributes=2;
 			};
 		};
 		class Item24
@@ -12806,15 +12819,15 @@ class Mission
 							dataType="Layer";
 							name="Required _2";
 							id=379;
-							atlOffset=-0.084892273;
+							atlOffset=185.97;
 						};
 					};
 					id=378;
-					atlOffset=-0.084892273;
+					atlOffset=185.97;
 				};
 			};
 			id=382;
-			atlOffset=-0.084892273;
+			atlOffset=185.97;
 		};
 	};
 };
