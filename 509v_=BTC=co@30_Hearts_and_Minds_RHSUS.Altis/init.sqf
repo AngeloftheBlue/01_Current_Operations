@@ -86,7 +86,35 @@ STGI_Update = {};
 STNT_Update ={};
 
 ///////////////////////////Damage Disabled Area////////////////////////////////////////////////
+//Ships Trucks Car Tanks
 
+SA_MAX_TOWED_CARGO = 4;
+SA_TOW_SUPPORTED_VEHICLES_OVERRIDE = [ "Air", "Ship", "Tanks","Car" ];
+SA_TOW_RULES_OVERRIDE = [
+	["Tank","CAN_TOW","Tank"],
+	["Tank","CAN_TOW","Car"],
+	["Tank","CAN_TOW","Ship"],
+	["Tank","CAN_TOW","Air"],
+	["Car","CAN_TOW","Tank"],
+	["Car","CAN_TOW","Car"],
+	["Car","CAN_TOW","Ship"],
+	["Car","CAN_TOW","Air"],
+	["Ship","CAN_TOW","Tank"],
+	["Ship","CAN_TOW","Car"],
+	["Ship","CAN_TOW","Ship"],
+	["Ship","CAN_TOW","Air"],
+	["Air","CAN_TOW","Tank"],
+	["Air","CAN_TOW","Car"],
+	["Air","CAN_TOW","Ship"],
+	["Air","CAN_TOW","Air"]
+];
+
+ASL_SLING_RULES_OVERRIDE = [
+	["Air", "CAN_SLING", "Air"], 
+	["Air", "CAN_SLING", "Ship"],
+	["Air", "CAN_SLING", "Tanks"], 
+	["Air", "CAN_SLING", "Car"]
+]; 
 
 
 
