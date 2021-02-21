@@ -1,0 +1,126 @@
+
+loadScreen = "core\img\btc.paa";
+author = "Giallustio";
+onLoadName = $STR_BTC_HAM_DESCR_NAME;
+onLoadMission = $STR_BTC_HAM_DESCR_MISSION;
+enabledebugconsole = 1;
+
+enableDebugConsole[] = {"76561198277313876", 
+						"76561198024812575", 
+						"76561198352564029", 
+						"76561198051306330",
+						"76561198168637308", 
+						"76561198125701176"  //Maximum 
+};
+
+
+respawndelay = "3";
+respawnOnStart = 0;
+aikills = 0;
+DisabledAI = true;
+saving=0;
+
+#include "core\fnc\common\dlg.hpp"
+#include "core\fnc\fob\dlg.hpp"
+#include "core\fnc\log\dlg.hpp"
+#include "core\fnc\debug\defines.hpp"
+#include "CHVD\dialog.hpp" // View Distance
+
+class RscTitles {
+    class Default {
+        idd = -1;
+        fadein = 0;
+        fadeout = 0;
+        duration = 0;
+    };
+    #include "core\fnc\lift\rsc.hpp"
+    #include "core\fnc\debug\dlg.hpp"
+};
+
+#include "core\def\param.hpp"
+
+#include "core\fnc\mil\aiskill.hpp"
+
+#include "core\fnc\task\taskTypes.hpp"
+
+class CfgFunctions {
+    #include "vcom\cfgFunctions.hpp"
+	#include "CHVD\CfgFunctions.hpp"
+    #include "core\fnc\eh\functions.hpp"
+    // add your own functions below
+};
+
+class CfgRemoteExec
+{
+	// List of script functions allowed to be sent from client via remoteExec
+	class Functions
+	{
+		mode = 2;
+		jip = 1;		
+		
+		class vcm_serverask { allowedTargets = 0;jip = 1; };
+		class VCM_PublicScript { allowedTargets = 0;jip = 1; };
+		class BIS_fnc_debugConsoleExec { allowedTargets = 0;jip = 1; };
+		class SpawnScript { allowedTargets = 0;jip = 1; };
+		class enableSimulationGlobal { allowedTargets = 0;jip = 1; };
+		class VCM_fnc_KnowAbout { allowedTargets = 0;jip = 1; };
+		
+	};
+	
+	
+};
+
+// CBA XEH
+class Extended_PreInit_EventHandlers {
+    #include "core\fnc\eh\xeh_PreInit_EH.hpp"
+    VCM_CBASettings = call compile preprocessFileLineNumbers "Vcom\Functions\VCM_Functions\fn_CBASettings.sqf";
+};
+
+class Extended_InitPost_EventHandlers {
+    class LandVehicle {
+        #include "core\fnc\eh\xeh_InitPost_EH_Vehicle.hpp"
+    };
+    class Air {
+        #include "core\fnc\eh\xeh_InitPost_EH_Vehicle.hpp"
+    };
+    class Ship {
+        #include "core\fnc\eh\xeh_InitPost_EH_Vehicle.hpp"
+    };
+};
+
+// Disable BI wreck system (H&M handle it internally)
+wreckManagerMode = 0;
+corpseManagerMode = 0;
+
+class CfgDebriefing
+{  
+    class AdminMod 
+    {
+        title = "Admin/Cheat Mod Detected ";
+        subtitle = "";
+        description = "Remove Admin Mods or vehicle spawn mods, Mods that reveal Enemy and Rejoin Ie Crosscom ect. ";
+        pictureBackground = "";
+        picture = "";
+        pictureColor[] = {0.0,0.3,0.6,1};
+    };
+	
+	class RestrictedMods
+    {
+        title = "Out of Date/Error producing Mod Detected ";
+        subtitle = "";
+        description = "Remove TF47,Achilles, gpn18 NVG, @Aspis Gear (Retextures), BloodLust,Bullet Casings mods,NIArms Minigun, Suitcase Nuke and Ravage due to bugs, and Rejoin. ";
+        pictureBackground = "";
+        picture = "";
+        pictureColor[] = {0.0,0.3,0.6,1};
+    };
+	
+	class ArsenalMod 
+    {
+        title = "Arsenal Mod Detected ";
+        subtitle = "";
+        description = "Remove Arsenal Mods, and Rejoin. ";
+        pictureBackground = "";
+        picture = "";
+        pictureColor[] = {0.0,0.3,0.6,1};
+    };
+};
