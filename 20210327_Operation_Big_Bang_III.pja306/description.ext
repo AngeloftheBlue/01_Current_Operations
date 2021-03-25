@@ -22,8 +22,8 @@ ____________________________________________*/
 
 
 author="509th PIR Mission Development";
-OnLoadName = "Operation Big Bang I";
-OnLoadMission = "Alone, the 509th act as a forward force to respond to a threat of international importance.  Their desitions will impact the future.  The fate of the world rests upon their shoulders";
+OnLoadName = "Operation Big Bang III";
+OnLoadMission = "I forgot to change the mission title last time -Donov";
 loadScreen = "images\splash.paa";
 
 
