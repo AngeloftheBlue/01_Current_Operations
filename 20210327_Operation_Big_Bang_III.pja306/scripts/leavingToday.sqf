@@ -1,5 +1,8 @@
 playMusic "CannonInD";
-
+{
+	_x allowDamage false;
+	[objNull, _x] call ace_medical_treatment_fnc_fullHeal;
+} forEach allPlayers;
 _bpm = 1.224;
 
 _camera = "camera" camcreate [15599.7,12459.2,10.265];
@@ -73,12 +76,47 @@ _camera camCommit  _bpm*4;
 waitUntil { camCommitted _camera};
 titleText ["<t size='3'>To You!</t>", "PLAIN DOWN", -1, true, true];
 _payload = round(random 600) max 400; 
-//[[3922.6+800,15493.2,0], _payload] call RHS_fnc_ss21_nuke;
+[[3922.6+800,15493.2,0], _payload] call RHS_fnc_ss21_nuke;
 _camera camCommit  _bpm*2;
 waitUntil { camCommitted _camera};
-cutText ["<t color='#FFFFFF' size='5'>Congratulations!</t>", "WHITE OUT", -1, true, true];
-_camera camCommit  _bpm*25;
+titleText  ["<t color='#FFFFFF' size='5'>Congratulations!</t>", "WHITE OUT", -1, true, true];
+_camera camCommit  _bpm*6;
 waitUntil { camCommitted _camera};
+_camera camSetPos [0,0,1];
+_camera camSetTarget [0,0,0];
+_camera camCommit  0;
+waitUntil { camCommitted _camera};
+titleText  ["<t color='#FFFFFF' size='3'>With the failure of their mission<br/>the country of Georgia is in ruin</t>", "BLACK", 0, true, true];
+_camera camCommit  _bpm*6;
+waitUntil { camCommitted _camera};
+titleText  ["<t color='#FFFFFF' size='3'>The United States and Russia are<br/>now working with the UN to resolve the incident</t>", "BLACK", 0, true, true];
+_camera camCommit  _bpm*6;
+waitUntil { camCommitted _camera};
+titleText  ["<t color='#FFFFFF' size='3'>Nuclear Armegedon was not brought upon<br/>the free world, or the Russian Federation</t>", "BLACK", 0, true, true];
+_camera camCommit  _bpm*6;
+waitUntil { camCommitted _camera}; //16
+titleText  ["<t color='#FFFFFF' size='3'>Missile Defense Sites engaged the missiles<br/>prior to contact OCONUS and CONUS within 500nm of Georgia</t>", "BLACK", 0, true, true];
+_camera camCommit  _bpm*6;
+waitUntil { camCommitted _camera};
+titleText  ["<t color='#FFFFFF' size='3'>The immidiate area is saturated<br/>and unihabitable for at least 200 years</t>", "BLACK", 0, true, true];
+_camera camCommit  _bpm*6;
+waitUntil { camCommitted _camera};
+titleText  ["<t color='#FFFFFF' size='3'>The world has now fully seen what could have been,<br/>and a belak outlook on the future is certian</t>", "BLACK", 0, true, true];
+_camera camCommit  _bpm*6;
+waitUntil { camCommitted _camera};
+titleText  ["<t color='#FFFFFF' size='3'>Will the world heal?<br/>Only time can tell...</t>", "BLACK", 0, true, true];
+_camera camCommit  _bpm*6;
+waitUntil { camCommitted _camera};
+titleText  ["<t color='#FFFFFF' size='3'>As for the 509th...</t>", "BLACK", 0, true, true];
+_camera camCommit  _bpm*6;
+waitUntil { camCommitted _camera};
+titleText  ["<t color='#FFFFFF' size='3'>Current Unit Status:<br/>MIA</t>", "BLACK", 0, true, true];
+_camera camCommit  _bpm*6;
+waitUntil { camCommitted _camera};
+titleText  ["<t color='#FFFFFF' size='5'>Congratulations!</t>", "BLACK", 0, true, true];
+_camera camCommit  _bpm*12;
+waitUntil { camCommitted _camera};
+
 endMission "END1";
 
 _camera cameraeffect ["terminate","back"];
