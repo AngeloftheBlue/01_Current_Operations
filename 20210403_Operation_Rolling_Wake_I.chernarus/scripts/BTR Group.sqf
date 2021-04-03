@@ -1,5 +1,5 @@
-//nul = execVM "GroupSpawner.sqf";
-//this addaction ["spawn AI", "GroupSpawner.sqf"];
+//nul = execVM "BTR Group.sqf";
+//this addaction ["spawn AI", "BTR Group.sqf"];
 
 //_crew1 = [];
 
