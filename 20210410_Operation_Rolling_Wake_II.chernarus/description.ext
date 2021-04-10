@@ -38,7 +38,7 @@ class CfgSounds {
     class Vietnamese {
         name = "Vietnamese";
         sound[] = {"sounds\Vietnamese.ogg", 15, 1.0};
-        titles[] = {0,""};
+        titles[] = {};
     };
 };
 
