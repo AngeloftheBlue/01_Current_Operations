@@ -22,8 +22,8 @@ ____________________________________________*/
 
 
 author="509th PIR Mission Development";
-OnLoadName = "Operation Amber Roads";
-OnLoadMission = "Welcome back to the grind with a throwback to start us off";
+OnLoadName = "Operation Liberty Bell I";
+OnLoadMission = "The 509th is sent to assist in the invasion of Yemen";
 loadScreen = "";
 
 
