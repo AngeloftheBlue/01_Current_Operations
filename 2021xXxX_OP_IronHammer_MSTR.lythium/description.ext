@@ -1,5 +1,5 @@
 
-loadScreen = "core\img\btc.paa";
+loadScreen = "";
 author = "Giallustio, 509 Mission Dev";
 onLoadName = "Operation Iron Hammer";
 onLoadMission = "The 509th PIR are assigned to a peacekeeping task force to attempt to bring stability to the region.";
